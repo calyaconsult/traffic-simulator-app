@@ -1,0 +1,13 @@
+{
+  "name": "traffic_simulator_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "generate": "node src/traffic-generator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

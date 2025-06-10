@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Traffic Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Web Traffic Simulator</h1>
+        <button id="generateBtn">Get Yesterday's Traffic Data</button>
+        <div id="data-container" class="hidden">
+            <h2 id="data-date"></h2>
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <h3>Visitors</h3>
+                    <p id="kpi-visitors"></p>
+                </div>
+                <div class="kpi-card">
+                    <h3>Pageviews</h3>
+                    <p id="kpi-pageviews"></p>
+                </div>
+                <div class="kpi-card">
+                    <h3>Bounce Rate</h3>
+                    <p id="kpi-bounceRate"></p>
+                </div>
+                <div class="kpi-card">
+                    <h3>Avg. Session</h3>
+                    <p id="kpi-avgSessionDuration"></p>
+                </div>
+            </div>
+        </div>
+        <div id="error-message" class="hidden"></div>
+    </main>
+    <script src="client.js"></script>
+</body>
+</html>
